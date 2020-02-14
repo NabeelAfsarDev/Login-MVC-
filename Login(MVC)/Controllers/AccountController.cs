@@ -29,7 +29,7 @@ namespace Login_MVC_.Controllers
         void connectionString()
         {
             // sets connection string
-            con.ConnectionString = @"data source=.\SQLEXPRESS; database=LOGIN_MVC; integrated security = SSPI;";
+            con.ConnectionString = //ConnectionString goes here;
         }
 
         [HttpPost]
